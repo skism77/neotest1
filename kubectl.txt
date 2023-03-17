@@ -1,0 +1,13 @@
+kubectl api-resources
+
+kubectl explain pod
+
+kubectl explain pod.spec.containers
+
+kubectl port-forward pod/nginx-xdkdkslsl 8080:80
+
+curl localhost:8080/version
+
+kubectl exec pod-name -c container-name -- ifconfig eth0
+
+
